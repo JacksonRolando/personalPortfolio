@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en" >
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="Professional Portfolio Website">
+        <meta name="author" content="Jackson Rolando">
+        <title>Jackson Rolando</title>
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <style>
+        .dropdown:hover .dropdown-content {
+            display: flex;
+        }
+        .dropdown-content {
+            display: none;
+        }
+    </style>
+    <body>
+        <div class="flex justify-end bg-purple-light items-center ">
+            <div class="flex justify-end items-center">
+                <div class=" sm:hidden dropdown flex flex-col justify-end">
+                    <button class=" dropbtn bg-red-600 text-gray-50 rounded py-1 px-5 m-2 hover:bg-red-800 hover:">Menu</button>
+                    <div class="dropdown-content hidden flex-col">
+                        <a class=" text-center text-gray-50 py-1 px-2 mx-2 mb-2 hover:bg-purple-lighter rounded" href="/">Home</a>
+                        <a class=" text-center text-gray-50  py-1 px-2 mx-2 mb-2 hover:bg-purple-lighter rounded" href="./projects.html">Projects</a>
+                        <a class=" text-center text-gray-50 py-1 px-2 mx-2 mb-2 hover:bg-purple-lighter rounded" href="./about.html">About</a>
+                    </div>
+                </div>
+                <nav class="hidden sm:flex flex-row">
+                    <div class="p-2">
+                        <a class="inline-block text-gray-50 hover:bg-purple-lighter rounded py-1 px-3" href="/">Home</a>
+                    </div>
+                    <div class="p-2">
+                        <a class="inline-block text-gray-50 hover:bg-red-900 bg-red-600 rounded py-1 px-3" href="./projects.html">Projects</a>
+                    </div>
+                    <div class="p-2">
+                        <a class="inline-block text-gray-50 hover:bg-purple-lighter rounded py-1 px-3" href="./about.html">About</a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <div>
+            <div class=" text-center text-3xl px-5 pt-5 mt-3">The Magic Hand</div>
+            <div class=" container mx-auto flex flex-col px-5 pb-5 md:pb-0 md:flex-row items-center md:max-w-5xl">
+                <div class=" p-5 md:pb-0 text-justify">
+                    For some time, I’ve been tinkering with DIY Wi-Fi-controlled lights, 
+                    infatuated with the laziness they cause in the coolest way possible. 
+                    I’ve flashed cheap Chinese switches with new firmware, set up a smart 
+                    home hub on my Raspberry Pi, and coded my own animations on individually 
+                    addressable LEDs. Using Alexa to control my many devices is very 
+                    convenient, but I wanted something cooler, something that felt a little 
+                    more futuristic. The Magic Hand allows me to control the lights in my 
+                    room with waves of my hand, making me feel like I’m in a Science-Fiction 
+                    movie. This project allowed me to experiment with AI outside of my studies, 
+                    applying it to achieve a personal goal. I am extremely interested in data 
+                    science, so it was only logical to make an entire project out of it. I 
+                    coded the microcontroller, trained the recurrent neural network, and 
+                    loaded it onto said microcontroller, and received some help from a friend, 
+                    Miles Oquendo, in designing the battery management system to make the 
+                    device cordless. A lot went into this project, and the final product shows it.  
+                </div>
+                <div><img class=" rounded-lg object-scale-down md:max-w-sm" src="/img/placeholderPurple.png"></div>
+            </div>
+            <div class="px-10 pb-5 md:pb-0 text-justify md:max-w-5xl container mx-auto">
+                I was able to compile a wide range of my skills for this project: my background 
+                in coding with an object-oriented mindset to organize the many functions of 
+                the device, my experience parsing data into a more useful form to take in 
+                data for training, as well as my knowledge of machine learning to structure 
+                data and use a neural network to yield an accurate classification of each 
+                gesture. I was able to identify a problem that could utilize AI and applied 
+                it to create a robust solution. When getting into the project, I wasn’t sure 
+                where to start. 
+            </div>
+            <div class=" container mx-auto flex flex-col px-5 pb-5 md:pb-0 md:flex-row items-center md:max-w-5xl">
+                <div><img class=" rounded-lg object-scale-down md:max-w-sm" src="/img/placeholderPurple.png"></div>
+                <div class="p-5 md:px-5 md:py-0 text-justify">
+                    I had never used TensorFlow, nor had I loaded an AI model onto an Arduino 
+                    via TensorFlow Lite. I hadn’t ever sent or received custom messages over 
+                    Bluetooth. I had never had to think about power consumption on a battery-powered 
+                    device. My work was cut out for me. Through this project, I was able to dive 
+                    into these topics with the help of many google searches, official 
+                    documentation, and YouTube tutorials. I now know how to use TensorFlow, an 
+                    AI library I will be using for many years to come. I also gained valuable 
+                    experience combining many complex concepts and methods into one program and 
+                    product, a pattern used in all parts of the tech industry that I’ve had little 
+                    prior experience in. Now that I have struggled through one AI-hardware project, 
+                    I now know how not to initially set up my code. I’m sure I will create cool 
+                    projects like this in the future, and the organization, readability, and 
+                    documentation of those projects will be much better than this one. Now that I 
+                    know what components need to be present for a project like this, I can better 
+                    plan for them in my next project.  
+                </div>
+            </div>
+            <div class="flex flex-wrap px-4 md:mt-16 items-center justify-center">
+                <img class="m-2 md:max-w-sm object-scale-down rounded-lg" src="/img/placeholderPurple.png">
+                <img class="m-2 md:max-w-sm object-scale-down rounded-lg" src="/img/placeholderPurple.png">
+                <img class="m-2 md:max-w-sm object-scale-down rounded-lg" src="/img/placeholderPurple.png">  
+            </div>
+        </div>
+    </body>
+    <br><br><br>
+</html>

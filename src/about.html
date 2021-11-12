@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en" >
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="Professional Portfolio Website">
+        <meta name="author" content="Jackson Rolando">
+        <title>Jackson Rolando</title>
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <style>
+        .dropdown:hover .dropdown-content {
+            display: flex;
+        }
+        .dropdown-content {
+            display: none;
+        }
+    </style>
+    <body>
+        <div class="flex justify-end bg-purple-light items-center ">
+            <div class="flex justify-end items-center">
+                <div class=" sm:hidden dropdown flex flex-col justify-end">
+                    <button class=" dropbtn bg-red-600 text-gray-50 rounded py-1 px-5 m-2 hover:bg-red-800 hover:">Menu</button>
+                    <div class="dropdown-content hidden flex-col">
+                        <a class=" text-center text-gray-50 py-1 px-2 mx-2 mb-2 hover:bg-purple-lighter rounded" href="/">Home</a>
+                        <a class=" text-center text-gray-50  py-1 px-2 mx-2 mb-2 hover:bg-purple-lighter rounded" href="./projects.html">Projects</a>
+                        <a class=" text-center text-gray-50 py-1 px-2 mx-2 mb-2 hover:bg-purple-lighter rounded" href="./about.html">About</a>
+                    </div>
+                </div>
+                <nav class="hidden sm:flex flex-row">
+                    <div class="p-2">
+                        <a class="inline-block text-gray-50 hover:bg-purple-lighter rounded py-1 px-3" href="/">Home</a>
+                    </div>
+                    <div class="p-2">
+                        <a class="inline-block text-gray-50 hover:bg-purple-lighter rounded py-1 px-3" href="./projects.html">Projects</a>
+                    </div>
+                    <div class="p-2">
+                        <a class="inline-block text-gray-50 hover:bg-red-900 bg-red-600 rounded py-1 px-3" href="./about.html">About</a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <style>
+            @media only screen and (max-width: 630px) {
+                .devilImage {
+                    object-position: 0 -50px;
+                }
+            }
+        </style>
+        <div class="flex flex-col">
+            <div class=" text-center mt-8 text-3xl">Who am I?</div>
+            <div class=" flex flex-col sm:flex-row-reverse mx-5 mt-2 p-4 items-center justify-center">
+                <div class=" flex h-56 rounded-lg w-full overflow-hidden sm:h-full sm:max-w-xs ml-6">
+                    <img class="rounded-lg object-cover w-full object-top devilImage" src='/img/devilsLake.jpeg'>
+                </div>
+                <div class="flex items-center text-xl mt-5 px-3 max-w-md">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </div>
+            </div>
+            <div class=" flex flex-col-reverse mx-5 mt-3 justify-center items-center sm:flex-row sm:justify-around sm:max-w-2xl sm:container sm:mx-auto">
+                <div class=" flex flex-col justify-center items-start mt-8 ml-7 sm:ml-0">
+                    <a href="mailto: jackson.rolando@icloud.com" class=" flex items-center justify-start w-full mb-2 hover:shadow-lg rounded-lg">
+                        <div class=" w-1/6">
+                            <img class=" object-scale-down" src="/img/mail.png">
+                        </div>
+                        <div class=" p-4">jackson.rolando@icloud.com</div>
+                    </a>
+                    <a href="tel:5712750182" class=" flex items-center justify-start w-full mb-2 hover:shadow-lg rounded-lg">
+                        <div class=" w-1/6">
+                            <img class=" object-scale-down" src="/img/phone.png">
+                        </div>
+                        <div class=" p-4">(571) 275-0182</div>
+                    </a>
+                    <a href="https://www.linkedin.com/in/jacksonrolando" class=" flex items-center justify-start w-full mb-2 hover:shadow-lg rounded-lg">
+                        <div class="w-1/6">
+                            <img class=" object-scale-down " src="/img/linkedIn.png">
+                        </div>
+                        <div class=" p-4">Jackson Rolando</div>
+                    </a>
+                    <a href="https://www.instagram.com/jack.rolo/" class=" flex items-center justify-start w-full hover:shadow-lg rounded-lg">
+                        <div class=" w-1/6">
+                            <img class=" object-scale-down" src="/img/insta.png">
+                        </div>
+                        <div class=" p-4">jack.rolo</div>
+                    </a>
+                </div>
+                <div class=" flex flex-col justify-center items-center">
+                    <div class=" text-center text-3xl sm:mt5">Interested?</div>
+                    <a href="./JacksonRolandoResume.pdf" target="_blank" class=" text-center text-lg mt-3 bg-red-600 hover:bg-red-900 py-2 px-5 rounded-full text-gray-50">Here's my resume</a>
+                </div>
+            </div>
+        </div>
+    </body><br><br><br><br>
+</html>
