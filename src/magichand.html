@@ -18,32 +18,34 @@
         }
     </style>
     <body>
-        <div class="flex justify-end bg-purple-light items-center ">
+        <div class="">
             <div class="flex justify-end items-center">
-                <div class=" sm:hidden dropdown flex flex-col justify-end">
-                    <button class=" dropbtn bg-red-600 text-gray-50 rounded py-1 px-5 m-2 hover:bg-red-800 hover:">Menu</button>
-                    <div class="dropdown-content hidden flex-col">
-                        <a class=" text-center text-gray-50 py-1 px-2 mx-2 mb-2 hover:bg-purple-lighter rounded" href="/">Home</a>
-                        <a class=" text-center text-gray-50  py-1 px-2 mx-2 mb-2 hover:bg-purple-lighter rounded" href="./projects.html">Projects</a>
-                        <a class=" text-center text-gray-50 py-1 px-2 mx-2 mb-2 hover:bg-purple-lighter rounded" href="./about.html">About</a>
+                <nav class=" sm:hidden dropdown flex flex-col justify-end items-end fixed mt-12 bg-purple-light w-full">
+                    <div class=" items-end justify-end">
+                        <button class=" dropbtn bg-red-600 text-gray-50 rounded py-1 px-5 m-2 hover:bg-red-800 hover:">Menu</button>
+                        <div class="dropdown-content hidden flex-col mt-12">
+                            <a class=" text-center text-gray-50 py-1 px-2 mx-2 mb-2 hover:bg-purple-lighter rounded" href="/#home">Home</a>
+                            <a class=" text-center text-gray-50  py-1 px-2 mx-2 mb-2 hover:bg-purple-lighter rounded" href="/#projects">Projects</a>
+                            <a class=" text-center text-gray-50 py-1 px-2 mx-2 mb-2 hover:bg-purple-lighter rounded" href="/#about">About</a>
+                        </div>
                     </div>
-                </div>
-                <nav class="hidden sm:flex flex-row">
+                </nav>
+                <nav class="hidden sm:flex flex-row sm:fixed mt-12 bg-purple-light w-full justify-end">
                     <div class="p-2">
-                        <a class="inline-block text-gray-50 hover:bg-purple-lighter rounded py-1 px-3" href="/">Home</a>
+                        <a class="inline-block text-gray-50 hover:bg-purple-lighter rounded py-1 px-3" href="/#home">Home</a>
                     </div>
                     <div class="p-2">
-                        <a class="inline-block text-gray-50 hover:bg-red-900 bg-red-600 rounded py-1 px-3" href="./projects.html">Projects</a>
+                        <a class="inline-block text-gray-50 hover:bg-red-900 bg-red-600 rounded py-1 px-3" href="/#projects">Projects</a>
                     </div>
                     <div class="p-2">
-                        <a class="inline-block text-gray-50 hover:bg-purple-lighter rounded py-1 px-3" href="./about.html">About</a>
+                        <a class="inline-block text-gray-50 hover:bg-purple-lighter rounded py-1 px-3" href="/#about">About</a>
                     </div>
                 </nav>
             </div>
         </div>
 
         <div>
-            <div class=" text-center text-3xl px-5 pt-5 mt-3">The Magic Hand</div>
+            <div class=" text-center text-3xl px-5 pt-5 mt-16">The Magic Hand</div>
             <div class=" container mx-auto flex flex-col px-5 pb-5 md:pb-0 md:flex-row items-center md:max-w-5xl">
                 <div class=" p-5 md:pb-0 text-justify">
                     For some time, I’ve been tinkering with DIY Wi-Fi-controlled lights, 
@@ -62,7 +64,7 @@
                     Miles Oquendo, in designing the battery management system to make the 
                     device cordless. A lot went into this project, and the final product shows it.  
                 </div>
-                <div><img class=" rounded-lg object-scale-down md:max-w-sm" src="/img/placeholderPurple.png"></div>
+                <div><img class=" rounded-lg object-scale-down md:max-w-sm" src="./img/hardware.jpg"></div>
             </div>
             <div class="px-10 pb-5 md:pb-0 text-justify md:max-w-5xl container mx-auto">
                 I was able to compile a wide range of my skills for this project: my background 
@@ -75,7 +77,7 @@
                 where to start. 
             </div>
             <div class=" container mx-auto flex flex-col px-5 pb-5 md:pb-0 md:flex-row items-center md:max-w-5xl">
-                <div><img class=" rounded-lg object-scale-down md:max-w-sm" src="/img/placeholderPurple.png"></div>
+                <div><img class=" rounded-lg object-scale-down md:max-w-sm" src="./img/arduino.png"></div>
                 <div class="p-5 md:px-5 md:py-0 text-justify">
                     I had never used TensorFlow, nor had I loaded an AI model onto an Arduino 
                     via TensorFlow Lite. I hadn’t ever sent or received custom messages over 
@@ -93,11 +95,6 @@
                     know what components need to be present for a project like this, I can better 
                     plan for them in my next project.  
                 </div>
-            </div>
-            <div class="flex flex-wrap px-4 md:mt-16 items-center justify-center">
-                <img class="m-2 md:max-w-sm object-scale-down rounded-lg" src="/img/placeholderPurple.png">
-                <img class="m-2 md:max-w-sm object-scale-down rounded-lg" src="/img/placeholderPurple.png">
-                <img class="m-2 md:max-w-sm object-scale-down rounded-lg" src="/img/placeholderPurple.png">  
             </div>
         </div>
     </body>

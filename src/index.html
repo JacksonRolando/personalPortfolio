@@ -20,27 +20,28 @@
         }
     </style>
     <body class=" flex-col justify-items-center ">
+        <a id="home"></a>
         <div class="">
             <div class="flex justify-end items-center">
-                <nav class=" sm:hidden dropdown flex flex-col justify-end items-end fixed mt-12 bg-purple-light w-full">
+                <nav class=" sm:hidden dropdown flex flex-col justify-end items-end fixed top-0 bg-purple-light w-full">
                     <div class=" items-end justify-end">
                         <button class=" dropbtn bg-red-600 text-gray-50 rounded py-1 px-5 m-2 hover:bg-red-800 hover:">Menu</button>
                         <div class="dropdown-content hidden flex-col mt-12">
-                            <a class=" text-center text-gray-50 py-1 px-2 mx-2 mb-2 hover:bg-purple-lighter rounded" href="/">Home</a>
-                            <a class=" text-center text-gray-50  py-1 px-2 mx-2 mb-2 hover:bg-purple-lighter rounded" href="./projects.html">Projects</a>
-                            <a class=" text-center text-gray-50 py-1 px-2 mx-2 mb-2 hover:bg-purple-lighter rounded" href="./about.html">About</a>
+                            <a class=" text-center text-gray-50 py-1 px-2 mx-2 mb-2 hover:bg-purple-lighter rounded" href="#home">Home</a>
+                            <a class=" text-center text-gray-50  py-1 px-2 mx-2 mb-2 hover:bg-purple-lighter rounded" href="#projects">Projects</a>
+                            <a class=" text-center text-gray-50 py-1 px-2 mx-2 mb-2 hover:bg-purple-lighter rounded" href="#about">About</a>
                         </div>
                     </div>
                 </nav>
-                <nav class="hidden sm:flex flex-row sm:fixed mt-12 bg-purple-light w-full justify-end">
+                <nav class="hidden sm:flex flex-row sm:fixed top-0 bg-purple-light w-full justify-end">
                     <div class="p-2">
-                        <a class="inline-block text-gray-50 hover:bg-red-900 bg-red-600 rounded py-1 px-3" href="/">Home</a>
+                        <a class="inline-block text-gray-50 hover:bg-red-900 bg-red-600 rounded py-1 px-3" href="#home">Home</a>
                     </div>
                     <div class="p-2">
-                        <a class="inline-block text-gray-50 hover:bg-purple-lighter rounded py-1 px-3" href="./projects.html">Projects</a>
+                        <a class="inline-block text-gray-50 hover:bg-purple-lighter rounded py-1 px-3" href="#projects">Projects</a>
                     </div>
                     <div class="p-2">
-                        <a class="inline-block text-gray-50 hover:bg-purple-lighter rounded py-1 px-3" href="./about.html">About</a>
+                        <a class="inline-block text-gray-50 hover:bg-purple-lighter rounded py-1 px-3" href="#about">About</a>
                     </div>
                 </nav>
             </div>
@@ -70,6 +71,7 @@
                 <div class=" flex justify-center">
                     <div class=" text-center mx-4 max-w-lg 2xl:max-w-xl 2xl:text-xl">I have experience with many different languages and technologies, using them for software development and data modeling.</div>
                 </div>
+                <a id="projects"></a>
             </div>
         </div>
         <!-- <div class=" mt-4 flex flex-col items-center sm:flex-row flex-auto sm:flex-wrap justify-center">
@@ -111,7 +113,6 @@
             </a>
         </div> -->
 
-
         <div class="flex flex-col justify-center items-center pt-10 px-10 pb-6">
             <div class=" text-center text-4xl">Projects</div>
             <div class="pt-3">
@@ -140,9 +141,9 @@
                     <div class="text-center p-2 mt-4 bg-red-600 rounded-lg text-gray-50 w-2/5 hover:bg-red-900">See Page</div>
                 </div>
                 <div class="flex flex-wrap object-cover">
-                    <div class="flex h-30">
-                        <img class=" w-1/2 object-cover" src="/img/placeholderPurple.png">
-                        <img class=" w-1/2 object-cover" src="/img/placeholderPurple.png">
+                    <div class="flex h-30 w-full justify-around">
+                        <img class=" w-1/2 object-scale-down" src="./img/hardware.jpg">
+                        <img class=" w-1/2 object-scale-down" src="./img/arduino.png">
                     </div>
                 </div>
             </a>
@@ -169,6 +170,7 @@
                 }
             }
         </style>
+        <a id="about"></a>
         <div class="flex flex-col mt-8">
             <div class=" flex flex-col sm:flex-row-reverse mx-5 mt-2 p-4 items-center justify-center">
                 <div class=" flex h-56 rounded-lg w-full overflow-hidden sm:h-full sm:max-w-xs ml-6">
